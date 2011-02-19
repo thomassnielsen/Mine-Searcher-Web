@@ -1,0 +1,76 @@
+body{
+  margin:0px;
+  padding:0px;
+  height:100%;
+  width:100%;
+  background:black;
+}
+#wrapper{
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+}
+
+#left{
+  margin:0px;
+  padding:0px;
+  float:left;
+  width:15%;
+  height:100%;
+  color:#DDD;
+}
+
+#title{
+  width:100%;
+  height:30px;
+  font-size:25px;
+  margin:5px;
+}
+
+#right{
+  float:left;
+  width:85%;
+}
+
+#newgamebutton{
+  text-align:center;
+}
+
+#gameboard{
+  margin-left:auto;
+  margin-right:auto;
+  line-height:0px;
+}
+
+#log{
+  color:white;
+}
+
+#imgborder{
+  background-image:url(/minesearcher/img/logo.png);
+  background-repeat:none;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding:0px;
+  margin-left:auto;
+  margin-right:auto;
+  width:150px;
+  height:150px;
+}
+
+#imgborder a{
+  width:150px;
+  height:150px;
+  display:block;
+}
+
+div.widthslider { padding: 10px !important; }
+div.heightslider { padding: 10px !important; }
+div.bombslider { padding: 10px !important; }
+
+a:link, a:hover, a:active, a:visited{
+  color:white;
+  text-decoration:none;
+}
